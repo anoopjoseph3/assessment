@@ -1,0 +1,17 @@
+uuid: df2192ee-f58d-4d1c-b0ff-fe877a871b25
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.profile_photo
+  module:
+    - crop
+name: pro
+label: 'Profile Photo'
+effects:
+  87354d40-22db-472d-92c0-e85891d13ad8:
+    uuid: 87354d40-22db-472d-92c0-e85891d13ad8
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: profile_photo
